@@ -1,0 +1,142 @@
+organizations:
+  - external_id: "health-access-initiative"
+    name: "Health Access Initiative"
+    description: "A comprehensive healthcare NGO focused on improving access to quality medical care in underserved communities worldwide. We operate mobile clinics, provide essential health services, conduct health education programs, and work on long-term healthcare infrastructure development. Our initiatives include vaccination campaigns, maternal health programs, chronic disease management, and training local healthcare workers to ensure sustainable community health outcomes."
+    slug: "health-access-initiative"
+    website: "https://health-access.org"
+    logo_url: "https://picsum.photos/200/200?id=health"
+    email: "contact@health-access.org"
+    collections:
+      - "medical_team"
+      - "health_education"
+      - "support_services"
+
+collections:
+  - external_id: "medical_team"
+    name: "Medical Professionals"
+    description: "Clinical and medical service roles"
+    slug: "medical-team"
+    group: "internal"
+    jobs:
+      - "clinic_doctor"
+      - "community_nurse"
+
+  - external_id: "health_education"
+    name: "Health Educators"
+    description: "Health education and awareness roles"
+    slug: "health-education"
+    group: "mixed"
+    jobs:
+      - "health_educator"
+      - "nutrition_counselor"
+
+jobs:
+  - external_id: "clinic_doctor"
+    title: "Community Clinic Doctor"
+    description: |
+      **Position Overview:**
+      Provide essential medical care in underserved communities.
+
+      **Responsibilities:**
+      - Conduct patient consultations
+      - Provide preventive care services
+      - Manage chronic conditions
+      - Train local healthcare workers
+      - Maintain medical records
+
+      **Impact:**
+      - Improve community health outcomes
+      - Build local healthcare capacity
+      - Provide essential medical services
+
+      **Time Commitment:** Full-time, 1-year minimum
+    slug: "clinic-doctor"
+    type: "member"
+    duration: "1 year"
+    skills:
+      - name: "medical-license"
+        description: "Valid medical license required"
+      - name: "community-health"
+        description: "Experience in community healthcare"
+
+  - external_id: "health_educator"
+    title: "Community Health Educator"
+    description: |
+      **Position Overview:**
+      Lead health education and prevention programs.
+
+      **Key Activities:**
+      - Develop health education materials
+      - Conduct community workshops
+      - Train community health workers
+      - Implement prevention programs
+
+      **Impact:**
+      - Improve health literacy
+      - Prevent common diseases
+      - Promote healthy behaviors
+
+      **Time Commitment:** 20 hours/week
+    slug: "health-educator"
+    type: "member"
+    duration: "6 months"
+    skills:
+      - name: "health-knowledge"
+        description: "Strong understanding of public health principles"
+      - name: "teaching"
+        description: "Experience in community education"
+
+  - external_id: "community_nurse"
+    title: "Community Health Nurse"
+    description: |
+      **Position Overview:**
+      Provide nursing care and health education in community settings.
+
+      **Responsibilities:**
+      - Deliver basic healthcare services
+      - Conduct health screenings
+      - Provide patient education
+      - Support vaccination programs
+      - Maintain medical records
+
+      **Impact:**
+      - Improve community health outcomes
+      - Increase access to healthcare
+      - Prevent common illnesses
+
+      **Time Commitment:** Full-time, 1-year minimum
+    slug: "community-nurse"
+    type: "member"
+    duration: "1 year"
+    skills:
+      - name: "nursing-license"
+        description: "Valid nursing license required"
+      - name: "community-health"
+        description: "Experience in community healthcare"
+
+  - external_id: "nutrition_counselor"
+    title: "Community Nutrition Counselor"
+    description: |
+      **Position Overview:**
+      Provide nutrition education and dietary counseling.
+
+      **Key Activities:**
+      - Conduct nutrition assessments
+      - Develop dietary plans
+      - Lead nutrition workshops
+      - Support healthy eating initiatives
+
+      **Impact:**
+      - Improve community nutrition
+      - Prevent diet-related diseases
+      - Promote healthy lifestyles
+
+      **Time Commitment:** 15-20 hours/week
+    slug: "nutrition-counselor"
+    type: "member"
+    duration: "6 months"
+    skills:
+      - name: "nutrition"
+        description: "Degree in nutrition or related field"
+      - name: "counseling"
+        description: "Experience in dietary counseling"

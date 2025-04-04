@@ -1,0 +1,148 @@
+organizations:
+  - external_id: "creative-heritage-alliance"
+    name: "Creative Heritage Alliance"
+    description: "A dynamic arts and culture organization dedicated to preserving and promoting diverse cultural expressions through innovative programs and community engagement. We support local artists, preserve traditional arts, and create platforms for cultural exchange through exhibitions, workshops, and educational initiatives."
+    slug: "creative-heritage-alliance"
+    website: "https://creative-heritage.org"
+    logo_url: "https://picsum.photos/200/200?id=arts"
+    email: "contact@creative-heritage.org"
+    collections:
+      - "arts_programs"
+      - "cultural_preservation"
+      - "event_support"
+
+collections:
+  - external_id: "arts_programs"
+    name: "Arts Programs"
+    description: "Core artistic and educational programs"
+    slug: "arts-programs"
+    group: "internal"
+    jobs:
+      - "program_curator"
+      - "arts_educator"
+
+  - external_id: "cultural_preservation"
+    name: "Cultural Preservation"
+    description: "Heritage documentation and preservation initiatives"
+    slug: "cultural-preservation"
+    group: "mixed"
+    jobs:
+      - "heritage_documentarian"
+      - "restoration_specialist"
+
+jobs:
+  - external_id: "program_curator"
+    title: "Arts Program Curator"
+    description: |
+      **Position Overview:**
+      Lead the development and implementation of innovative arts programs and exhibitions.
+
+      **Responsibilities:**
+      - Design and curate exhibitions and cultural events
+      - Develop relationships with artists and cultural institutions
+      - Manage program budgets and timelines
+      - Create educational materials and gallery guides
+
+      **Impact:**
+      - Increase community access to diverse artistic expressions
+      - Support emerging and established artists
+      - Preserve and promote cultural heritage
+      - Foster cross-cultural understanding
+
+      **Requirements:**
+      - Background in arts administration or related field
+      - Experience in exhibition planning
+      - Strong project management skills
+
+      **Time Commitment:** Full-time, minimum 1-year commitment
+    slug: "program-curator"
+    type: "member"
+    duration: "1 year"
+    skills:
+      - name: "curation"
+        description: "Experience in exhibition curation and program development"
+      - name: "arts-administration"
+        description: "Knowledge of arts administration and event management"
+
+  - external_id: "heritage_documentarian"
+    title: "Cultural Heritage Documentarian"
+    description: |
+      **Position Overview:**
+      Document and preserve cultural heritage through various media formats.
+
+      **Key Activities:**
+      - Record oral histories and traditional practices
+      - Photograph cultural events and artifacts
+      - Create digital archives of cultural materials
+      - Develop preservation strategies
+
+      **Impact:**
+      - Preserve cultural knowledge for future generations
+      - Create accessible digital archives
+      - Support cultural education initiatives
+
+      **Time Commitment:** Part-time, flexible schedule
+    slug: "heritage-documentarian"
+    type: "member"
+    duration: "6 months"
+    skills:
+      - name: "documentation"
+        description: "Experience in cultural documentation and archiving"
+      - name: "digital-media"
+        description: "Proficiency in photography and digital media"
+
+  - external_id: "arts_educator"
+    title: "Community Arts Educator"
+    description: |
+      **Position Overview:**
+      Develop and lead arts education programs for diverse community groups.
+
+      **Key Activities:**
+      - Design and conduct arts workshops
+      - Create educational materials
+      - Facilitate community art projects
+      - Evaluate program effectiveness
+
+      **Impact:**
+      - Increase arts accessibility
+      - Develop creative skills
+      - Foster cultural appreciation
+      - Build community connections
+
+      **Time Commitment:** 15-20 hours/week
+    slug: "arts-educator"
+    type: "member"
+    duration: "6 months"
+    skills:
+      - name: "arts-education"
+        description: "Experience in arts education or teaching"
+      - name: "artistic-practice"
+        description: "Active practice in relevant art forms"
+
+  - external_id: "restoration_specialist"
+    title: "Cultural Heritage Restoration Specialist"
+    description: |
+      **Position Overview:**
+      Lead restoration projects for cultural artifacts and heritage sites.
+
+      **Responsibilities:**
+      - Assess restoration needs
+      - Develop preservation plans
+      - Conduct restoration work
+      - Document restoration processes
+      - Train others in preservation techniques
+
+      **Impact:**
+      - Preserve cultural heritage
+      - Share restoration knowledge
+      - Protect historical artifacts
+
+      **Time Commitment:** Project-based, varying duration
+    slug: "restoration-specialist"
+    type: "member"
+    duration: "variable"
+    skills:
+      - name: "restoration-expertise"
+        description: "Experience in cultural heritage restoration"
+      - name: "conservation"
+        description: "Knowledge of preservation techniques"

@@ -1,0 +1,204 @@
+organizations:
+  - external_id: "voluntar-xyz"
+    name: "Voluntar.XYZ"
+    description: "Voluntar.XYZ is platform for making easy to find and apply for volunteering opportunities. We connect volunteers with organizations that need their help, making it simple and rewarding to give back to the community."
+    slug: "voluntar-xyz"
+    website: "http://www.voluntar.xyz"
+    logo_url: "http://www.voluntar.xyz/logo.png"
+    phone: ""
+    email: "salut@voluntar.xyz"
+    collections:
+      - "volutar_xyz__platform_development"
+      - "volutar_xyz__community"
+      - "volutar_xyz__operations"
+      - "volutar_xyz__marketing"
+
+collections:
+  - external_id: "volutar_xyz__platform_development"
+    name: "Platform Development"
+    description: "Technical roles for platform development"
+    slug: "platform-development"
+    group: "engineering"
+    jobs:
+      - "volutar_xyz_backend_developer"
+      - "volutar_xyz_frontend_developer"
+      - "volutar_xyz_ux_ui_designer"
+      - "volutar_xyz_devops_engineer"
+      - "volutar_xyz_product_manager"
+      - "volutar_xyz_qa_engineer"
+
+  - external_id: "volutar_xyz__community"
+    name: "Community Building"
+    description: "Community management and engagement roles"
+    slug: "community-building"
+    group: "community"
+    jobs:
+      - "volutar_xyz_community_manager"
+
+  - external_id: "volutar_xyz__operations"
+    name: "Operations"
+    description: "Operational and administrative roles"
+    slug: "operations"
+    group: "operations"
+    jobs:
+      - "volutar_xyz_hr_manager"
+      - "volutar_xyz_finance_manager"
+      - "volutar_xyz_legal_advisor"
+      - "volutar_xyz_office_manager"
+      - "volutar_xyz_it_support"
+
+  - external_id: "volutar_xyz__marketing"
+    name: "Marketing and Branding"
+    description: "Marketing and communications roles"
+    slug: "marketing-and-branding"
+    group: "marketing"
+    jobs:
+      - "volutar_xyz_marketing_designer"
+      - "volutar_xyz_content_specialist"
+      - "volutar_xyz_marketing_director"
+
+jobs:
+  - external_id: "volutar_xyz_backend_developer"
+    title: "Backend Developer"
+    description: "Develop and maintain the server-side logic of our web platform"
+    slug: "backend-developer"
+    type: "volunteer"
+    skills:
+      - name: "nodejs"
+        description: "Experience with Node.js and Express/Fastify frameworks"
+      - name: "typescript"
+        description: "Strong typing and modern TypeScript features"
+      - name: "supabase"
+        description: "Building and maintaining Supabase backends"
+
+  - external_id: "volutar_xyz_frontend_developer"
+    title: "Frontend Developer"
+    description: "Design and develop the user interface of our platform"
+    slug: "frontend-developer"
+    type: "volunteer"
+    skills:
+      - name: "react"
+        description: "Modern React with hooks and context"
+      - name: "typescript"
+        description: "Type-safe component development"
+      - name: "ui-development"
+        description: "Responsive design and accessibility"
+
+  - external_id: "volutar_xyz_ux_ui_designer"
+    title: "UX/UI Designer"
+    description: "Craft visually appealing and user-friendly designs for our platform"
+    slug: "ux-ui-designer"
+    type: "volunteer"
+    skills:
+      - name: "user-experience"
+      - name: "user-interface"
+      - name: "figma"
+
+  - external_id: "volutar_xyz_devops_engineer"
+    title: "DevOps Engineer"
+    description: "Ensure the platform runs smoothly and maintains high performance"
+    slug: "devops-engineer"
+    type: "volunteer"
+    skills:
+      - name: "devops"
+      - name: "cloud-infrastructure"
+      - name: "ci-cd"
+
+  - external_id: "volutar_xyz_product_manager"
+    title: "Product Manager (Development)"
+    description: "Oversee the planning and execution of product development"
+    slug: "product-manager-development"
+    type: "volunteer"
+    skills:
+      - name: "product-management"
+      - name: "agile"
+
+  - external_id: "volutar_xyz_qa_engineer"
+    title: "QA Engineer"
+    description: "Test and ensure the quality of our platform"
+    slug: "qa-engineer"
+    type: "volunteer"
+    skills:
+      - name: "quality-assurance"
+      - name: "testing"
+
+  - external_id: "volutar_xyz_community_manager"
+    title: "Community Manager"
+    description: "Foster relationships between volunteers and organizations"
+    slug: "community-manager"
+    type: "volunteer"
+    skills:
+      - name: "community-management"
+      - name: "event-planning"
+
+  - external_id: "volutar_xyz_hr_manager"
+    title: "HR Manager"
+    description: "Oversee recruitment and employee relations"
+    slug: "hr-manager"
+    type: "volunteer"
+    skills:
+      - name: "human-resources"
+      - name: "recruitment"
+
+  - external_id: "volutar_xyz_finance_manager"
+    title: "Finance Manager"
+    description: "Handle budgeting, funding, and financial planning to support our operations. Your financial acumen will ensure we have the resources to make a difference."
+    slug: "finance-manager"
+    type: "volunteer"
+    skills:
+      - name: "financial-management"
+      - name: "budgeting"
+
+  - external_id: "volutar_xyz_legal_advisor"
+    title: "Legal Advisor"
+    description: "Ensure compliance with laws and manage contracts to protect our NGO's interests. Your legal expertise will keep us compliant and able to focus on our mission."
+    slug: "legal-advisor"
+    type: "volunteer"
+    skills:
+      - name: "legal"
+      - name: "compliance"
+
+  - external_id: "volutar_xyz_office_manager"
+    title: "Office Manager"
+    description: "Manage day-to-day administrative tasks, ensuring smooth office operations. You'll keep things running smoothly, so we can focus on making a difference."
+    slug: "office-manager"
+    type: "volunteer"
+    skills:
+      - name: "office-management"
+      - name: "administration"
+
+  - external_id: "volutar_xyz_it_support"
+    title: "IT Support Specialist"
+    description: "Maintain and support our technology infrastructure, ensuring everything runs smoothly. Your technical support will keep us connected and operational."
+    slug: "it-support-specialist"
+    type: "volunteer"
+    skills:
+      - name: "it-support"
+      - name: "technical-support"
+
+  - external_id: "volutar_xyz_marketing_designer"
+    title: "Marketing Designer"
+    description: "Create visual content for campaigns, ensuring they are attractive and aligned with our brand."
+    slug: "marketing-designer"
+    type: "volunteer"
+    skills:
+      - name: "graphic-design"
+      - name: "branding"
+
+  - external_id: "volutar_xyz_content_specialist"
+    title: "Content Specialist"
+    description: "Develop engaging content for blogs, social media, and other platforms to attract volunteers. Your words will inspire and inform, driving more people to join our cause."
+    slug: "content-specialist"
+    type: "volunteer"
+    skills:
+      - name: "content-writing"
+      - name: "social-media"
+
+  - external_id: "volutar_xyz_marketing_director"
+    title: "Marketing Director"
+    description: "Oversee marketing strategies to increase visibility and attract more volunteers. Your leadership will expand our reach and impact."
+    slug: "marketing-director"
+    type: "volunteer"
+    skills:
+      - name: "marketing-strategy"
+      - name: "team-leadership"

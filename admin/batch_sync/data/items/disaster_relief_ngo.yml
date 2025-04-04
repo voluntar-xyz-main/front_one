@@ -1,0 +1,144 @@
+organizations:
+  - external_id: "rapid-relief-response"
+    name: "Rapid Relief Response"
+    description: "An international disaster response organization specializing in immediate and long-term humanitarian aid during natural and man-made disasters. We coordinate emergency response teams, manage relief supply chains, and implement reconstruction projects. Our work spans emergency medical care, temporary shelter provision, food security, and infrastructure rebuilding to help communities recover and build resilience."
+    slug: "rapid-relief-response"
+    website: "https://rapid-relief.org"
+    logo_url: "https://picsum.photos/200/200?id=relief"
+    email: "contact@rapid-relief.org"
+    collections:
+      - "relief_emergency"
+      - "relief_logistics"
+      - "relief_support"
+
+collections:
+  - external_id: "relief_emergency"
+    name: "Emergency Response Team"
+    description: "High-commitment emergency response roles"
+    slug: "emergency-response"
+    group: "internal"
+    jobs:
+      - "medical_responder"
+      - "reconstruction_lead"
+
+  - external_id: "relief_logistics"
+    name: "Logistics Team"
+    description: "Supply chain and distribution roles"
+    slug: "logistics"
+    group: "mixed"
+    jobs:
+      - "supply_coordinator"
+      - "delivery_volunteer"
+
+  - external_id: "relief_support"
+    name: "Support Volunteers"
+    description: "One-time support opportunities"
+    slug: "support"
+    group: "external"
+    jobs:
+      - "warehouse_helper"
+      - "shelter_assistant"
+
+jobs:
+  - external_id: "medical_responder"
+    title: "Medical Emergency Responder"
+    description: "Provide medical support in disaster-affected areas"
+    slug: "medical-responder"
+    type: "member"
+    duration: "on-call"
+    skills:
+      - name: "medical-certification"
+        description: "Valid medical certification required"
+      - name: "emergency-response"
+        description: "Experience in emergency medical situations"
+
+  - external_id: "supply_coordinator"
+    title: "Supply Chain Coordinator"
+    description: "Coordinate relief supply distribution"
+    slug: "supply-coordinator"
+    type: "member"
+    duration: "3 months"
+    skills:
+      - name: "logistics"
+        description: "Experience in supply chain management"
+
+  - external_id: "warehouse_helper"
+    title: "Warehouse Assistant"
+    description: "Pack and organize relief supplies"
+    slug: "warehouse-helper"
+    type: "volunteer"
+    duration: "1 day"
+    skills:
+      - name: "physical-ability"
+        description: "Able to lift and move supplies"
+
+  - external_id: "reconstruction_lead"
+    title: "Reconstruction Project Lead"
+    description: |
+      **Position Overview:**
+      Lead long-term reconstruction projects in disaster-affected areas.
+
+      **Responsibilities:**
+      - Plan and oversee infrastructure rebuilding projects
+      - Coordinate with local authorities and contractors
+      - Ensure project compliance with safety standards
+      - Manage reconstruction team and resources
+
+      **Impact:**
+      - Rebuild essential community infrastructure
+      - Improve disaster resilience
+      - Support community recovery
+
+      **Time Commitment:** Full-time, 1-year minimum
+    slug: "reconstruction-lead"
+    type: "member"
+    duration: "1 year"
+    skills:
+      - name: "construction-management"
+        description: "Experience in construction project management"
+      - name: "disaster-recovery"
+        description: "Knowledge of disaster recovery principles"
+
+  - external_id: "delivery_volunteer"
+    title: "Relief Supply Delivery Volunteer"
+    description: |
+      **Position Overview:**
+      Deliver essential supplies to disaster-affected areas.
+
+      **Key Activities:**
+      - Transport relief supplies to distribution points
+      - Help maintain delivery schedules
+      - Coordinate with logistics team
+      - Document deliveries
+
+      **Time Commitment:** Flexible, on-call basis
+    slug: "delivery-volunteer"
+    type: "volunteer"
+    duration: "flexible"
+    skills:
+      - name: "driving"
+        description: "Valid driver's license and clean driving record"
+      - name: "physical-fitness"
+        description: "Ability to lift and move supplies"
+
+  - external_id: "shelter_assistant"
+    title: "Emergency Shelter Assistant"
+    description: |
+      **Position Overview:**
+      Help set up and manage temporary shelters.
+
+      **Key Activities:**
+      - Assist in shelter setup and maintenance
+      - Support basic needs distribution
+      - Help maintain shelter safety and cleanliness
+      - Assist shelter residents
+
+      **Time Commitment:** 1-2 weeks per deployment
+    slug: "shelter-assistant"
+    type: "volunteer"
+    duration: "1-2 weeks"
+    skills:
+      - name: "physical-work"
+        description: "Ability to perform physical tasks"
+      - name: "interpersonal"
+        description: "Good communication and people skills"

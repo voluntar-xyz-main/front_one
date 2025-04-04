@@ -1,0 +1,213 @@
+organizations:
+  - external_id: "youth-sports-empowerment"
+    name: "Youth Sports Empowerment"
+    description: "A dynamic organization dedicated to empowering young people through sports and physical activity. We create inclusive sports programs that build confidence, leadership skills, and healthy lifestyles while promoting community building and conflict resolution through athletic activities."
+    slug: "youth-sports-empowerment"
+    website: "https://youth-sports-empowerment.org"
+    logo_url: "https://picsum.photos/200/200?id=sports"
+    email: "contact@youth-sports-empowerment.org"
+    collections:
+      - "sports_programs"
+      - "youth_development"
+      - "event_support"
+
+collections:
+  - external_id: "sports_programs"
+    name: "Sports Programs"
+    description: "Core sports coaching and training roles"
+    slug: "sports-programs"
+    group: "internal"
+    jobs:
+      - "head_coach"
+      - "sports_coordinator"
+      - "fitness_trainer"
+
+  - external_id: "youth_development"
+    name: "Youth Development"
+    description: "Mentoring and leadership development roles"
+    slug: "youth-development"
+    group: "mixed"
+    jobs:
+      - "youth_mentor"
+      - "leadership_trainer"
+
+  - external_id: "event_support"
+    name: "Event Support"
+    description: "Tournament and event assistance roles"
+    slug: "event-support"
+    group: "external"
+    jobs:
+      - "tournament_organizer"
+      - "equipment_manager"
+
+jobs:
+  - external_id: "head_coach"
+    title: "Head Sports Coach"
+    description: |
+      **Position Overview:**
+      Lead sports programs and develop young athletes.
+
+      **Responsibilities:**
+      - Design and implement training programs
+      - Mentor youth athletes
+      - Coordinate with other coaches
+      - Track participant progress
+      - Ensure safety protocols
+
+      **Impact:**
+      - Develop athletic skills
+      - Build youth confidence
+      - Foster team spirit
+      - Promote healthy lifestyles
+
+      **Time Commitment:** 20 hours/week, 6-month minimum
+    slug: "head-coach"
+    type: "member"
+    duration: "6 months"
+    skills:
+      - name: "coaching"
+        description: "Certified coaching experience"
+      - name: "youth-development"
+        description: "Experience working with young people"
+
+  - external_id: "youth_mentor"
+    title: "Youth Sports Mentor"
+    description: |
+      **Position Overview:**
+      Mentor youth through sports activities.
+
+      **Key Activities:**
+      - Provide one-on-one mentoring
+      - Support sports skill development
+      - Help with personal goal setting
+      - Model positive behavior
+
+      **Impact:**
+      - Build youth confidence
+      - Develop leadership skills
+      - Create positive role models
+
+      **Time Commitment:** 10 hours/week, 3-month minimum
+    slug: "youth-mentor"
+    type: "member"
+    duration: "3 months"
+    skills:
+      - name: "mentoring"
+        description: "Experience mentoring youth"
+      - name: "sports-background"
+        description: "Athletic or sports experience"
+
+  - external_id: "tournament_organizer"
+    title: "Tournament Coordinator"
+    description: |
+      **Position Overview:**
+      Organize and manage youth sports tournaments.
+
+      **Key Activities:**
+      - Plan tournament logistics
+      - Coordinate teams and schedules
+      - Manage event volunteers
+      - Ensure safety protocols
+
+      **Time Commitment:** Event-based, varying duration
+    slug: "tournament-organizer"
+    type: "volunteer"
+    duration: "event-based"
+    skills:
+      - name: "event-planning"
+        description: "Experience in event organization"
+      - name: "sports-knowledge"
+        description: "Understanding of sports operations"
+
+  - external_id: "sports_coordinator"
+    title: "Sports Program Coordinator"
+    description: |
+      **Position Overview:**
+      Coordinate multiple sports programs and teams.
+
+      **Responsibilities:**
+      - Schedule training sessions and matches
+      - Coordinate with coaches and venues
+      - Manage equipment and resources
+      - Ensure safety protocols
+
+      **Impact:**
+      - Enable organized sports participation
+      - Maximize resource utilization
+      - Ensure program quality
+
+      **Time Commitment:** 25 hours/week
+    slug: "sports-coordinator"
+    type: "member"
+    duration: "6 months"
+    skills:
+      - name: "sports-management"
+        description: "Experience in sports program management"
+      - name: "organization"
+        description: "Strong organizational skills"
+
+  - external_id: "fitness_trainer"
+    title: "Youth Fitness Trainer"
+    description: |
+      **Position Overview:**
+      Lead youth fitness and conditioning programs.
+
+      **Key Activities:**
+      - Design age-appropriate fitness programs
+      - Conduct group training sessions
+      - Monitor participant progress
+      - Ensure safe exercise practices
+
+      **Time Commitment:** 15 hours/week
+    slug: "fitness-trainer"
+    type: "member"
+    duration: "3 months"
+    skills:
+      - name: "fitness-certification"
+        description: "Certified fitness trainer"
+      - name: "youth-fitness"
+        description: "Experience in youth fitness training"
+
+  - external_id: "leadership_trainer"
+    title: "Sports Leadership Trainer"
+    description: |
+      **Position Overview:**
+      Develop leadership skills through sports.
+
+      **Key Activities:**
+      - Conduct leadership workshops
+      - Mentor young athletes
+      - Organize team-building activities
+      - Foster leadership development
+
+      **Time Commitment:** 10 hours/week
+    slug: "leadership-trainer"
+    type: "member"
+    duration: "6 months"
+    skills:
+      - name: "leadership-development"
+        description: "Experience in leadership training"
+      - name: "sports-background"
+        description: "Sports coaching or playing experience"
+
+  - external_id: "equipment_manager"
+    title: "Sports Equipment Manager"
+    description: |
+      **Position Overview:**
+      Manage sports equipment and facilities.
+
+      **Key Activities:**
+      - Maintain equipment inventory
+      - Ensure proper equipment care
+      - Coordinate equipment distribution
+      - Monitor facility conditions
+
+      **Time Commitment:** 10-15 hours/week
+    slug: "equipment-manager"
+    type: "volunteer"
+    duration: "3 months"
+    skills:
+      - name: "inventory-management"
+        description: "Experience in equipment management"
+      - name: "organization"
+        description: "Strong organizational skills"

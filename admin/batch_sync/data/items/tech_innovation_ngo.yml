@@ -1,0 +1,140 @@
+organizations:
+  - external_id: "tech-for-change"
+    name: "Initiative Tech"
+    description: "An innovative technology-focused NGO dedicated to leveraging digital solutions for social impact. We develop and implement technology-based solutions for community challenges, provide digital literacy education, and support tech-enabled social enterprises. Our work includes coding education, digital inclusion programs, and sustainable technology solutions for underserved communities."
+    slug: "tech-for-change"
+    website: "https://techforchange.org"
+    logo_url: "https://picsum.photos/200/200?id=tech"
+    email: "contact@techforchange.org"
+    collections:
+      - "tech_development"
+      - "digital_education"
+      - "tech_support"
+
+collections:
+  - external_id: "tech_development"
+    name: "Technology Development"
+    description: "Software development and tech solution roles"
+    slug: "tech-development"
+    group: "internal"
+    jobs:
+      - "tech_project_lead"
+      - "software_developer"
+
+  - external_id: "digital_education"
+    name: "Digital Education"
+    description: "Technology education and training roles"
+    slug: "digital-education"
+    group: "mixed"
+    jobs:
+      - "coding_instructor"
+      - "digital_literacy_trainer"
+
+jobs:
+  - external_id: "tech_project_lead"
+    title: "Technology Project Lead"
+    description: |
+      **Position Overview:**
+      Lead technology-based social impact projects from conception to implementation.
+
+      **Responsibilities:**
+      - Design technical solutions for community challenges
+      - Manage development teams and project timelines
+      - Coordinate with community stakeholders
+      - Ensure solution sustainability and adoption
+
+      **Impact:**
+      - Create lasting technological solutions for social issues
+      - Build community capacity in technology adoption
+      - Foster digital inclusion
+
+      **Time Commitment:** Full-time, 1-year minimum
+    slug: "tech-project-lead"
+    type: "member"
+    duration: "1 year"
+    skills:
+      - name: "project-management"
+        description: "Experience leading technical projects"
+      - name: "software-development"
+        description: "Strong technical background"
+
+  - external_id: "coding_instructor"
+    title: "Coding Education Instructor"
+    description: |
+      **Position Overview:**
+      Teach coding and computer science to underserved communities.
+
+      **Key Activities:**
+      - Develop and deliver coding curriculum
+      - Mentor aspiring programmers
+      - Create hands-on learning projects
+      - Track student progress
+
+      **Impact:**
+      - Increase digital literacy in communities
+      - Create pathways to tech careers
+      - Bridge the digital divide
+
+      **Schedule:** 10-15 hours/week, 3-month commitment
+    slug: "coding-instructor"
+    type: "member"
+    duration: "3 months"
+    skills:
+      - name: "coding"
+        description: "Proficient in relevant programming languages"
+      - name: "teaching"
+        description: "Experience in educational instruction"
+
+  - external_id: "software_developer"
+    title: "Social Impact Software Developer"
+    description: |
+      **Position Overview:**
+      Develop software solutions for community challenges.
+
+      **Responsibilities:**
+      - Code and test applications
+      - Collaborate with stakeholders
+      - Document technical solutions
+      - Maintain existing systems
+
+      **Impact:**
+      - Create technological solutions for social issues
+      - Improve community services
+      - Enable digital transformation
+
+      **Time Commitment:** 20-40 hours/week
+    slug: "software-developer"
+    type: "member"
+    duration: "6 months"
+    skills:
+      - name: "programming"
+        description: "Proficient in relevant programming languages"
+      - name: "problem-solving"
+        description: "Strong analytical and problem-solving skills"
+
+  - external_id: "digital_literacy_trainer"
+    title: "Digital Literacy Trainer"
+    description: |
+      **Position Overview:**
+      Teach basic digital skills to community members.
+
+      **Key Activities:**
+      - Conduct basic computer skills workshops
+      - Teach internet safety and usage
+      - Support online service access
+      - Track participant progress
+
+      **Impact:**
+      - Bridge the digital divide
+      - Enable digital inclusion
+      - Enhance employability
+
+      **Schedule:** 10 hours/week, flexible
+    slug: "digital-literacy-trainer"
+    type: "volunteer"
+    duration: "3 months"
+    skills:
+      - name: "digital-skills"
+        description: "Strong digital literacy"
+      - name: "teaching"
+        description: "Experience in adult education"

@@ -1,0 +1,140 @@
+organizations:
+  - external_id: "career-pathways"
+    name: "Career Pathways Alliance"
+    description: "A comprehensive career development organization focused on creating employment opportunities and building professional skills. We provide job training, career counseling, and connections to employment opportunities, with special focus on underserved communities and transition populations."
+    slug: "career-pathways"
+    website: "https://careerpathways.org"
+    logo_url: "https://picsum.photos/200/200?id=career"
+    email: "contact@careerpathways.org"
+    collections:
+      - "career_coaching"
+      - "skills_training"
+      - "event_support"
+
+collections:
+  - external_id: "career_coaching"
+    name: "Career Coaching"
+    description: "Professional development and mentoring roles"
+    slug: "coaching"
+    group: "internal"
+    jobs:
+      - "career_counselor"
+      - "professional_mentor"
+
+  - external_id: "skills_training"
+    name: "Skills Training"
+    description: "Vocational and soft skills training roles"
+    slug: "training"
+    group: "mixed"
+    jobs:
+      - "skills_trainer"
+      - "workshop_facilitator"
+
+jobs:
+  - external_id: "career_counselor"
+    title: "Career Development Counselor"
+    description: |
+      **Position Overview:**
+      Provide comprehensive career guidance and planning support.
+
+      **Responsibilities:**
+      - Conduct one-on-one career counseling sessions
+      - Develop personalized career action plans
+      - Facilitate job search strategy workshops
+      - Network with potential employers
+
+      **Impact:**
+      - Help individuals identify career paths
+      - Support successful job placements
+      - Build long-term career development skills
+
+      **Time Commitment:** 20 hours/week, 6-month minimum
+    slug: "career-counselor"
+    type: "member"
+    duration: "6 months"
+    skills:
+      - name: "career-counseling"
+        description: "Experience in career guidance or HR"
+      - name: "coaching"
+        description: "Strong mentoring abilities"
+
+  - external_id: "skills_trainer"
+    title: "Professional Skills Trainer"
+    description: |
+      **Position Overview:**
+      Deliver training in essential professional skills.
+
+      **Key Activities:**
+      - Conduct workshops on professional skills
+      - Create training materials
+      - Assess participant progress
+      - Provide feedback and guidance
+
+      **Impact:**
+      - Enhance employability skills
+      - Build professional confidence
+      - Improve job retention rates
+
+      **Schedule:** 10 hours/week, flexible scheduling
+    slug: "skills-trainer"
+    type: "member"
+    duration: "3 months"
+    skills:
+      - name: "training"
+        description: "Experience in professional training"
+      - name: "communication"
+        description: "Strong presentation skills"
+
+  - external_id: "professional_mentor"
+    title: "Professional Career Mentor"
+    description: |
+      **Position Overview:**
+      Provide one-on-one mentoring to job seekers and career changers.
+
+      **Key Activities:**
+      - Meet regularly with mentees
+      - Share industry insights
+      - Review career progress
+      - Provide networking opportunities
+
+      **Impact:**
+      - Support career development
+      - Share professional expertise
+      - Build mentee confidence
+
+      **Time Commitment:** 5-10 hours/month
+    slug: "professional-mentor"
+    type: "member"
+    duration: "6 months"
+    skills:
+      - name: "industry-experience"
+        description: "Significant professional experience"
+      - name: "mentoring"
+        description: "Strong mentoring abilities"
+
+  - external_id: "workshop_facilitator"
+    title: "Career Workshop Facilitator"
+    description: |
+      **Position Overview:**
+      Lead workshops on various career development topics.
+
+      **Key Activities:**
+      - Facilitate interactive workshops
+      - Create engaging presentations
+      - Answer participant questions
+      - Provide practical exercises
+
+      **Impact:**
+      - Build practical job skills
+      - Increase employment readiness
+      - Share industry knowledge
+
+      **Time Commitment:** 4-6 hours/month
+    slug: "workshop-facilitator"
+    type: "volunteer"
+    duration: "3 months"
+    skills:
+      - name: "facilitation"
+        description: "Experience in workshop facilitation"
+      - name: "public-speaking"
+        description: "Strong presentation skills"

@@ -1,0 +1,123 @@
+organizations:
+  - external_id: "heritage-preservation-alliance"
+    name: "Heritage Preservation Alliance"
+    description: "A dedicated cultural preservation organization focused on protecting and promoting cultural heritage worldwide. We work to document, preserve, and revitalize traditional practices, historical sites, and cultural knowledge through community engagement, education, and hands-on preservation projects."
+    slug: "heritage-preservation-alliance"
+    website: "https://heritage-preservation.org"
+    logo_url: "https://picsum.photos/200/200?id=heritage"
+    email: "contact@heritage-preservation.org"
+    collections:
+      - "preservation_projects"
+      - "cultural_education"
+      - "community_outreach"
+
+collections:
+  - external_id: "preservation_projects"
+    name: "Preservation Projects"
+    description: "Heritage site and artifact preservation roles"
+    slug: "preservation"
+    group: "internal"
+    jobs:
+      - "preservation_specialist"
+      - "site_conservator"
+      - "cultural_researcher"
+
+  - external_id: "cultural_education"
+    name: "Cultural Education"
+    description: "Traditional knowledge and skills transmission"
+    slug: "education"
+    group: "mixed"
+    jobs:
+      - "tradition_educator"
+      - "craft_instructor"
+
+  - external_id: "community_outreach"
+    name: "Community Programs"
+    description: "Community engagement and support roles"
+    slug: "community"
+    group: "external"
+    jobs:
+      - "community_liaison"
+      - "event_coordinator"
+
+jobs:
+  - external_id: "preservation_specialist"
+    title: "Cultural Preservation Specialist"
+    description: |
+      **Position Overview:**
+      Lead preservation projects for cultural heritage sites and artifacts.
+
+      **Responsibilities:**
+      - Develop preservation strategies
+      - Implement conservation techniques
+      - Document traditional practices
+      - Train local community members
+
+      **Impact:**
+      - Protect tangible cultural heritage
+      - Build local preservation capacity
+      - Ensure cultural continuity
+
+      **Time Commitment:** Full-time, 1-year minimum
+    slug: "preservation-specialist"
+    type: "member"
+    duration: "1 year"
+    skills:
+      - name: "conservation"
+        description: "Professional conservation experience"
+      - name: "cultural-knowledge"
+        description: "Understanding of cultural preservation principles"
+
+  - external_id: "tradition_educator"
+    title: "Traditional Knowledge Educator"
+    description: |
+      **Position Overview:**
+      Facilitate the transmission of traditional knowledge and practices.
+
+      **Key Activities:**
+      - Organize cultural workshops
+      - Document traditional practices
+      - Connect elders with younger generations
+      - Create educational materials
+
+      **Impact:**
+      - Preserve intangible heritage
+      - Bridge generational gaps
+      - Strengthen cultural identity
+
+      **Time Commitment:** 20 hours/week
+    slug: "tradition-educator"
+    type: "member"
+    duration: "6 months"
+    skills:
+      - name: "cultural-expertise"
+        description: "Deep knowledge of traditional practices"
+      - name: "teaching"
+        description: "Experience in cultural education"
+
+  - external_id: "community_liaison"
+    title: "Community Cultural Liaison"
+    description: |
+      **Position Overview:**
+      Bridge preservation efforts with local community needs.
+
+      **Key Activities:**
+      - Facilitate community consultations
+      - Coordinate cultural events
+      - Build local partnerships
+      - Support community initiatives
+
+      **Impact:**
+      - Ensure community involvement
+      - Foster cultural pride
+      - Build sustainable preservation programs
+
+      **Time Commitment:** 15-20 hours/week
+    slug: "community-liaison"
+    type: "volunteer"
+    duration: "6 months"
+    skills:
+      - name: "community-relations"
+        description: "Experience in community engagement"
+      - name: "cultural-sensitivity"
+        description: "Strong cultural awareness and sensitivity"

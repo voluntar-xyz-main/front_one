@@ -1,0 +1,183 @@
+organizations:
+  - external_id: "edu-literacy-foundation"
+    name: "Education & Literacy Foundation"
+    description: "A leading education-focused NGO dedicated to improving access to quality education and literacy development worldwide. We work with communities to establish sustainable education programs, provide resources to underprivileged students, and develop innovative teaching methodologies. Our initiatives include adult literacy programs, youth education support, teacher training, and educational resource distribution."
+    slug: "edu-literacy-foundation"
+    website: "https://edu-literacy.org"
+    logo_url: "https://picsum.photos/200/200?id=edu"
+    email: "contact@edu-literacy.org"
+    collections:
+      - "edu_leadership"
+      - "edu_teachers"
+      - "edu_volunteers"
+
+collections:
+  - external_id: "edu_leadership"
+    name: "Program Leadership"
+    description: "Leadership roles requiring high commitment"
+    slug: "program-leadership"
+    group: "internal"
+    jobs:
+      - "curriculum_developer"
+      - "volunteer_coordinator"
+
+  - external_id: "edu_teachers"
+    name: "Teaching Staff"
+    description: "Regular teaching and tutoring positions"
+    slug: "teaching-staff"
+    group: "mixed"
+    jobs:
+      - "english_teacher"
+      - "math_tutor"
+
+  - external_id: "edu_volunteers"
+    name: "Event Volunteers"
+    description: "One-time volunteer opportunities"
+    slug: "event-volunteers"
+    group: "external"
+    jobs:
+      - "book_drive_helper"
+      - "workshop_assistant"
+
+jobs:
+  - external_id: "curriculum_developer"
+    title: "Adult Literacy Curriculum Developer"
+    description: |
+      **Position Overview:**
+      Lead the development and implementation of comprehensive adult literacy programs.
+
+      **Responsibilities:**
+      - Design culturally sensitive literacy curriculum
+      - Create assessment tools and learning materials
+      - Train and support teaching staff
+      - Monitor program effectiveness
+
+      **Impact:**
+      Help adults gain essential reading and writing skills, empowering them to:
+      - Secure better employment opportunities
+      - Support their children's education
+      - Participate more fully in their communities
+
+      **Time Commitment:** 6-month minimum commitment, ~20 hours/week
+    slug: "curriculum-developer"
+    type: "member"
+    duration: "6 months"
+    skills:
+      - name: "curriculum-design"
+        description: "Experience in educational curriculum development"
+      - name: "adult-education"
+        description: "Understanding of adult learning principles"
+
+  - external_id: "english_teacher"
+    title: "English Teacher"
+    description: |
+      **Position Overview:**
+      Teach English language skills to underprivileged children and youth.
+
+      **Responsibilities:**
+      - Conduct engaging English classes (basic to intermediate)
+      - Create lesson plans and learning materials
+      - Track student progress
+      - Participate in teacher training sessions
+
+      **Impact:**
+      Help students develop crucial language skills for:
+      - Academic success
+      - Future career opportunities
+      - Global communication
+
+      **Schedule:** 2-3 classes per week, 2 hours each
+    slug: "english-teacher"
+    type: "member"
+    duration: "3 months"
+    skills:
+      - name: "teaching"
+        description: "Basic teaching experience"
+      - name: "english-proficiency"
+        description: "Native or advanced English speaker"
+
+  - external_id: "book_drive_helper"
+    title: "Book Drive Assistant"
+    description: "Help organize and run book collection drives"
+    slug: "book-drive-helper"
+    type: "volunteer"
+    duration: "1 day"
+    skills:
+      - name: "organization"
+        description: "Basic organizational skills"
+
+  - external_id: "math_tutor"
+    title: "Mathematics Tutor"
+    description: |
+      **Position Overview:**
+      Provide mathematics tutoring to students needing additional support.
+
+      **Responsibilities:**
+      - Deliver one-on-one and small group math tutoring
+      - Create practice materials and exercises
+      - Track student progress
+      - Coordinate with classroom teachers
+
+      **Impact:**
+      - Improve student math performance
+      - Build student confidence in mathematics
+      - Support academic achievement
+
+      **Schedule:** 6-8 hours/week, flexible timing
+    slug: "math-tutor"
+    type: "member"
+    duration: "3 months"
+    skills:
+      - name: "mathematics"
+        description: "Strong mathematics background"
+      - name: "tutoring"
+        description: "Experience in tutoring or teaching"
+
+  - external_id: "volunteer_coordinator"
+    title: "Volunteer Program Coordinator"
+    description: |
+      **Position Overview:**
+      Manage volunteer recruitment, training, and coordination.
+
+      **Responsibilities:**
+      - Recruit and screen volunteers
+      - Organize volunteer training sessions
+      - Match volunteers with appropriate roles
+      - Track volunteer participation
+
+      **Impact:**
+      - Ensure effective volunteer program operation
+      - Support volunteer development
+      - Maximize volunteer impact
+
+      **Time Commitment:** 15-20 hours/week
+    slug: "volunteer-coordinator"
+    type: "member"
+    duration: "6 months"
+    skills:
+      - name: "volunteer-management"
+        description: "Experience coordinating volunteer programs"
+      - name: "organization"
+        description: "Strong organizational skills"
+
+  - external_id: "workshop_assistant"
+    title: "Educational Workshop Assistant"
+    description: |
+      **Position Overview:**
+      Support the organization and delivery of educational workshops.
+
+      **Key Activities:**
+      - Help set up workshop materials
+      - Assist workshop facilitators
+      - Support participant engagement
+      - Collect feedback
+
+      **Time Commitment:** Per-workshop basis
+    slug: "workshop-assistant"
+    type: "volunteer"
+    duration: "1 day"
+    skills:
+      - name: "event-support"
+        description: "Basic event assistance skills"
+      - name: "teamwork"
+        description: "Ability to work collaboratively"

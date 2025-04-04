@@ -1,0 +1,10 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="scale: 1;">
+    <circle cx="50" cy="50" r="50" fill="white"></circle>
+    <!-- Hand-drawn imperfect circle -->
+    <g style="transform: translate(-25px, 0);">
+    <path d="M52,50c2,14,14,27,30,28s28-13,30-28-10-30-28-32-34,10-36,24" stroke="black" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+
+    <!-- Imperfect green checkmark -->
+    <path d="M28,52 Q40,68 44,63 T72,28" stroke="green" fill="none" stroke-linecap="round" stroke-linejoin="round" style="translate: 48px;" stroke-width="16"></path>
+    </g>
+</svg>

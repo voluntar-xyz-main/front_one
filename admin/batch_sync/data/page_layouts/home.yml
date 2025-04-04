@@ -1,0 +1,43 @@
+name: "Home Page"
+slug: "home"
+structure:
+  - type: "announcement"
+    order: 1
+    data:
+      title: "Welcome to Voluntar.xyz"
+      content: |
+        <img src="images/image.png" width="200" />
+
+        **Platforma inca nu e gata...**, dar dacă ai idei despre cum ar trebui să arate locul în care găsești oportunități pentru a ajuta comunitatea, contactează-ne la [salut@voluntar.xyz](mailto:salut@voluntar.xyz)
+
+        Avem nevoie de feedback, creativitate și energie pentru a crea ceva cu adevărat util.`,
+      collapsible: true
+      defaultCollapsed: true
+
+  - type: "list"
+    order: 2
+    data:
+      title: "Featured Opportunities"
+      listType: "jobs"
+      variant: "scroll"
+      items:
+        - "tech_project_lead"
+        - "software_developer"
+
+  - type: "announcement"
+    order: 3
+    data:
+      title: "Impact Together"
+      content: |
+        Voxy este mascota platformei. Astazi a fost creata de XYZ.
+        <img src="images/voxy_2.jpg" width="200" />
+
+  - type: "list"
+    order: 4
+    data:
+      title: "Partner Organizations"
+      listType: "organizations"
+      variant: "grid"
+      items:
+        - "tech-for-change"
+        - "edu-literacy-foundation"

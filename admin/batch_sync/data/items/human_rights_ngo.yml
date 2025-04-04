@@ -1,0 +1,158 @@
+organizations:
+  - external_id: "global-rights-defenders"
+    name: "Global Rights Defenders"
+    description: "A human rights organization dedicated to protecting and promoting fundamental human rights worldwide. We combine legal advocacy, community education, and direct support to victims of human rights violations. Our work encompasses legal aid provision, documentation of violations, policy advocacy at national and international levels, and empowering local communities through human rights education and capacity building."
+    slug: "global-rights-defenders"
+    website: "https://global-rights-defenders.org"
+    logo_url: "https://picsum.photos/200/200?id=rights"
+    email: "contact@global-rights-defenders.org"
+    collections:
+      - "rights_advocacy"
+      - "rights_education"
+      - "rights_support"
+
+collections:
+  - external_id: "rights_advocacy"
+    name: "Advocacy Team"
+    description: "Legal and policy advocacy roles"
+    slug: "advocacy"
+    group: "internal"
+    jobs:
+      - "legal_advocate"
+      - "policy_researcher"
+
+  - external_id: "rights_education"
+    name: "Education & Outreach"
+    description: "Community education and awareness roles"
+    slug: "education-outreach"
+    group: "mixed"
+    jobs:
+      - "rights_educator"
+      - "community_coordinator"
+
+  - external_id: "rights_support"
+    name: "Support Volunteers"
+    description: "Event and campaign support roles"
+    slug: "support"
+    group: "external"
+    jobs:
+      - "campaign_volunteer"
+      - "event_assistant"
+
+jobs:
+  - external_id: "legal_advocate"
+    title: "Human Rights Legal Advocate"
+    description: "Provide legal assistance to victims of human rights violations"
+    slug: "legal-advocate"
+    type: "member"
+    duration: "1 year"
+    skills:
+      - name: "legal-expertise"
+        description: "Law degree with human rights experience"
+      - name: "advocacy"
+        description: "Experience in legal advocacy"
+
+  - external_id: "rights_educator"
+    title: "Human Rights Educator"
+    description: "Lead community workshops on human rights"
+    slug: "rights-educator"
+    type: "member"
+    duration: "6 months"
+    skills:
+      - name: "teaching"
+        description: "Experience in educational programming"
+      - name: "human-rights-knowledge"
+        description: "Strong understanding of human rights principles"
+
+  - external_id: "policy_researcher"
+    title: "Human Rights Policy Researcher"
+    description: |
+      **Position Overview:**
+      Conduct research on human rights issues and policy solutions.
+
+      **Responsibilities:**
+      - Research human rights violations and trends
+      - Analyze policy impacts
+      - Write reports and recommendations
+      - Support advocacy initiatives
+
+      **Impact:**
+      - Inform policy decisions
+      - Document rights violations
+      - Support evidence-based advocacy
+
+      **Time Commitment:** Full-time, 1-year minimum
+    slug: "policy-researcher"
+    type: "member"
+    duration: "1 year"
+    skills:
+      - name: "research"
+        description: "Strong research and analysis skills"
+      - name: "policy"
+        description: "Understanding of policy processes"
+
+  - external_id: "community_coordinator"
+    title: "Community Outreach Coordinator"
+    description: |
+      **Position Overview:**
+      Coordinate community engagement and education programs.
+
+      **Key Activities:**
+      - Organize community workshops
+      - Build local partnerships
+      - Facilitate community dialogues
+      - Develop educational materials
+
+      **Time Commitment:** 20 hours/week
+    slug: "community-coordinator"
+    type: "member"
+    duration: "6 months"
+    skills:
+      - name: "community-engagement"
+        description: "Experience in community outreach"
+      - name: "program-coordination"
+        description: "Program management skills"
+
+  - external_id: "campaign_volunteer"
+    title: "Campaign Support Volunteer"
+    description: |
+      **Position Overview:**
+      Support human rights awareness campaigns.
+
+      **Activities:**
+      - Distribute campaign materials
+      - Assist at awareness events
+      - Support social media outreach
+      - Help collect petition signatures
+
+      **Time Commitment:** 5-10 hours/month
+    slug: "campaign-volunteer"
+    type: "volunteer"
+    duration: "3 months"
+    skills:
+      - name: "communication"
+        description: "Good communication skills"
+      - name: "advocacy"
+        description: "Interest in human rights advocacy"
+
+  - external_id: "event_assistant"
+    title: "Rights Awareness Event Assistant"
+    description: |
+      **Position Overview:**
+      Support human rights awareness events.
+
+      **Activities:**
+      - Help with event setup and breakdown
+      - Welcome and guide attendees
+      - Distribute materials
+      - Support event documentation
+
+      **Time Commitment:** Per-event basis
+    slug: "event-assistant"
+    type: "volunteer"
+    duration: "1 day"
+    skills:
+      - name: "event-support"
+        description: "Basic event management skills"
+      - name: "teamwork"
+        description: "Ability to work in teams"

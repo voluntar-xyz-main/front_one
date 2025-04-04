@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+    <!-- Design Grid -->
+    <g id="design-grid" opacity="0.15">
+        <!-- Golden Ratio Circles -->
+        <circle cx="150" cy="150" r="185.4" fill="none" stroke="#cccccc" stroke-width="0.5" />
+        <circle cx="150" cy="150" r="150" fill="none" stroke="#cccccc" stroke-width="0.5" />
+        <circle cx="150" cy="150" r="114.6" fill="none" stroke="#cccccc" stroke-width="0.5" />
+        <circle cx="150" cy="150" r="92.7" fill="none" stroke="#cccccc" stroke-width="0.5" />
+        <circle cx="150" cy="150" r="70.8" fill="none" stroke="#cccccc" stroke-width="0.5" />
+
+        <!-- Vertical Guides -->
+        <line x1="150" y1="0" x2="150" y2="300" stroke="#cccccc" stroke-width="0.5" />
+        <line x1="75" y1="0" x2="75" y2="300" stroke="#cccccc" stroke-width="0.5" />
+        <line x1="225" y1="0" x2="225" y2="300" stroke="#cccccc" stroke-width="0.5" />
+
+        <!-- Horizontal Guides -->
+        <line x1="0" y1="150" x2="300" y2="150" stroke="#cccccc" stroke-width="0.5" />
+        <line x1="0" y1="75" x2="300" y2="75" stroke="#cccccc" stroke-width="0.5" />
+        <line x1="0" y1="225" x2="300" y2="225" stroke="#cccccc" stroke-width="0.5" />
+
+        <!-- Book-specific Guides -->
+        <line x1="0" y1="107" x2="300" y2="107" stroke="#cccccc" stroke-width="0.5"
+            stroke-dasharray="2,2" />
+        <line x1="0" y1="200" x2="300" y2="200" stroke="#cccccc" stroke-width="0.5"
+            stroke-dasharray="2,2" />
+    </g>
+
+    <g id="logo">
+        <!-- Base Circle -->
+        <circle cx="150" cy="150" r="145" fill="#ffffff" stroke="#e8e8e8" stroke-width="2" />
+
+        <!-- Open Book Base -->
+        <path
+            d="M70 160 C70 120, 70 120, 70 100 C70 90, 80 85, 90 90 C120 100, 140 105, 150 107 C160 105, 180 100, 210 90 C220 85, 230 90, 230 100 C230 120, 230 120, 230 160 C230 170, 220 175, 210 170 C180 160, 160 155, 150 153 C140 155, 120 160, 90 170 C80 175, 70 170, 70 160 Z"
+            fill="#ffffff" stroke="#1a6b96" stroke-width="3" />
+
+        <!-- Book Pages Left -->
+        <path
+            d="M75 155 C75 120, 75 120, 75 105 C105 115, 135 122, 150 125 L150 148 C135 145, 105 138, 75 155 Z"
+            fill="#f0f0f0" stroke="#1a6b96" stroke-width="1" />
+
+        <!-- Book Pages Right -->
+        <path
+            d="M225 155 C225 120, 225 120, 225 105 C195 115, 165 122, 150 125 L150 148 C165 145, 195 138, 225 155 Z"
+            fill="#f0f0f0" stroke="#1a6b96" stroke-width="1" />
+
+        <!-- Growth/Education Symbol -->
+        <path d="M150 45 L150 90 M120 60 L150 90 L180 60"
+            stroke="#3ca370" stroke-width="4" stroke-linecap="round" />
+
+        <!-- Reading/Learning Lines -->
+        <path d="M90 125 L130 125 M90 135 L120 135 M90 145 L125 145"
+            stroke="#1a6b96" stroke-width="2" stroke-linecap="round" />
+        <path d="M170 125 L210 125 M180 135 L210 135 M175 145 L210 145"
+            stroke="#1a6b96" stroke-width="2" stroke-linecap="round" />
+
+        <!-- Graduation Cap -->
+        <path d="M150 200 L120 215 L150 230 L180 215 Z" fill="#3ca370" />
+        <path d="M150 200 L150 230" stroke="#3ca370" stroke-width="3" />
+        <path d="M175 218 L175 235 C175 240, 165 245, 150 245 C135 245, 125 240, 125 235 L125 218"
+            stroke="#3ca370" stroke-width="2" fill="none" />
+
+        <!-- Educational Orbit -->
+        <ellipse cx="150" cy="150" rx="120" ry="90" fill="none" stroke="#3ca370"
+            stroke-width="1.5" stroke-dasharray="5,5" transform="rotate(15, 150, 150)" />
+    </g>
+</svg>

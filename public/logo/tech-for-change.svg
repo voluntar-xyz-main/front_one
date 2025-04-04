@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+    <g id="logo">
+        <!-- Base Circle -->
+        <circle cx="150" cy="150" r="145" fill="#ffffff" stroke="#e8e8e8" stroke-width="2" />
+
+        <!-- Circuit Pattern Background -->
+        <path
+            d="M150 30 C210 30, 240 60, 270 150 C240 240, 210 270, 150 270 C90 270, 60 240, 30 150 C60 60, 90 30, 150 30"
+            fill="none" stroke="#016FB9" stroke-width="1" stroke-dasharray="2,2" />
+
+        <!-- Tech Nodes -->
+        <circle cx="150" cy="30" r="6" fill="#016FB9" />
+        <circle cx="270" cy="150" r="6" fill="#016FB9" />
+        <circle cx="150" cy="270" r="6" fill="#016FB9" />
+        <circle cx="30" cy="150" r="6" fill="#016FB9" />
+
+        <!-- Central Tech Symbol -->
+        <circle cx="150" cy="150" r="70" fill="none" stroke="#016FB9" stroke-width="8" />
+
+        <!-- Circuit Lines -->
+        <path d="M150 80 L150 50 M220 150 L250 150 M150 220 L150 250 M80 150 L50 150"
+            stroke="#016FB9" stroke-width="4" stroke-linecap="round" />
+
+        <!-- Digital Connectivity Symbol -->
+        <path d="M130 130 L170 130 L170 170 L130 170 Z" fill="#016FB9" />
+        <circle cx="150" cy="150" r="10" fill="#ffffff" />
+
+        <!-- People/Community Symbols -->
+        <circle cx="90" cy="90" r="15" fill="#FF8000" />
+        <path d="M90 105 C70 120, 65 140, 90 160" stroke="#FF8000" stroke-width="6"
+            stroke-linecap="round" fill="none" />
+
+        <circle cx="210" cy="90" r="15" fill="#FF8000" />
+        <path d="M210 105 C230 120, 235 140, 210 160" stroke="#FF8000" stroke-width="6"
+            stroke-linecap="round" fill="none" />
+
+        <circle cx="150" cy="210" r="15" fill="#FF8000" />
+        <path d="M130 200 L120 180 M170 200 L180 180" stroke="#FF8000" stroke-width="6"
+            stroke-linecap="round" />
+
+        <!-- Connection Lines Between Tech and People -->
+        <path d="M105 105 L130 130 M195 105 L170 130 M150 195 L150 170"
+            stroke="#78BE20" stroke-width="2" stroke-dasharray="3,3" />
+
+        <!-- Innovation Sparks -->
+        <path d="M60 60 L75 75 M240 60 L225 75 M60 240 L75 225 M240 240 L225 225"
+            stroke="#FF8000" stroke-width="3" stroke-linecap="round" />
+    </g>
+</svg>
