@@ -50,6 +50,12 @@ Help wanted from all skill levels! Here are starter suggestions:
 
 _Click ["Good First Issue"](https://github.com/voluntar-xyz-main/front_one/issues?q=state%3Aopen%20label%3A%22good%20first%20issue%22) to see all entry points_
 
+## Docs
+
+| Doc                                                              | Type | Tags |
+| ---------------------------------------------------------------- | ---- | ---- |
+| [ADR000: Architecture for Early-Stage](docs/decisions/ADR000.md) | ADR  |      |
+
 ## Tech Stack
 
 - **Frontend**: React + TypeScript
