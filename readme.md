@@ -22,6 +22,23 @@ pnpm install
 pnpm run dev
 ```
 
+### Contributing
+
+We welcome all contributions! Here's how to help:
+
+- Code Contributions:
+
+  1. Fork the repository
+  2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+  3. Submit a PR with clear description
+
+- Non-Code Contributions:
+
+  1. Report bugs via Issues
+  2. Suggest improvements via Issues
+
+- Reach out at [salut@voluntar.xyz](mailto:salut@voluntar.xyz)
+
 ## Project Structure
 
 ```
@@ -47,8 +64,6 @@ Help wanted from all skill levels! Here are starter suggestions:
 | Issue                                                                                 | Skill Level | Tags             |
 | ------------------------------------------------------------------------------------- | ----------- | ---------------- |
 | [🌱 Lightweight Code Review](https://github.com/voluntar-xyz-main/front_one/issues/2) | Any         | Review, Feedback |
-
-_Click ["Good First Issue"](https://github.com/voluntar-xyz-main/front_one/issues?q=state%3Aopen%20label%3A%22good%20first%20issue%22) to see all entry points_
 
 ## Docs
 
